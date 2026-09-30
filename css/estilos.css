@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+
+html {font-size:  20px}
+
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 0.5em;
+
+}
+
+
+
+p{
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+#btnCargar{
+    font-size: 0.7em;
+    border: 2px solid gray;
+    background-color: rgb(92, 147, 138);
+    box-shadow: 2px 2px 3px 2px gray; 
+    border-radius: 5px;
+    margin-left: 600px;
+    margin-top: 5px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#btnEstado{
+    font-size: 0.7em;
+    border: 2px solid gray;
+    background-color: rgb(164, 111, 111);
+    box-shadow: 2px 2px 3px 2px gray; 
+    border-radius: 5px;
+    margin-left: 85%;
+    margin-top: 5px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* aca agrego un selector para las tarjetas y les agrego colores, y cositas*/
+
+div {
+    width: 30%;
+    font-size: 1em;
+    padding: 5vh 5px;
+    background-color: white;
+    box-shadow: 2px 2px 3px 2px gray; 
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-bottom: 2px solid gray;
+
+    
+}
+
+
+
+
+
+
+/* aca hago que cuando esta en modo dark, el fondo sea oscuro, y todos los textos blancos */
+.dark {
+    background-color: #202020;
+    color: #ffffff;
+
+}
+
+
+/* aca hago para que cuando el body este en dark, se cambie el fondo de la tarjeta a un gris casi negro. Asi me aseguro que los textos de las tarjetas se puedan leer */
+body.dark div {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+
+button {
+    background: linear-gradient(to left, #322587, #284bca);
+    color: white;
+    border: none;
+    height: 40px;
+    padding: 10px 14px;
+    margin: 5px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+}
+
